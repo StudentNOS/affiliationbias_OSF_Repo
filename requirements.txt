@@ -1,0 +1,11 @@
+# Install the dependencies for replication of the paper
+
+geopandas==0.9.0 #this package might need its own environment
+numpy==1.24.3
+matplotlib==3.4.2
+openai==0.27.8
+pandas==2.0.1
+paperscraper==0.2.7
+Requests==2.31.0
+shapely==2.0.1
+seaborn==0.12.2
