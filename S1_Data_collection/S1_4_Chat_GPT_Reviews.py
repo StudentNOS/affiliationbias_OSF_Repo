@@ -11,8 +11,6 @@ import random
 openai.api_key = config_local.openai_api
 
 
-
-
 # Settings
 model = "gpt-3.5-turbo"
 n_repetitions = 250
