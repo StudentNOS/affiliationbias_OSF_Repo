@@ -1,4 +1,5 @@
-Here is short information on the main parts of the code. Detailed annotation may be found within the code as comment. 
+Here is short information on the main parts of the code. Detailed annotation may be found within the code as comment.
+The order of code documents follows the structure in the supplemental document. 
 
 # Medrxiv scraping
 The 30 abstract used in this study were scraped from medrxiv using the paperscraper module. Please note that running this code will not create the same list of abstracts as used in our study, since [the script](medrxiv_scraping/get_abstracts.py) accesses the last 30 abstracts of the medrxiv dump. Depending on the date your dump was created this will result in a different list of papers. The list of abstracts we used in our study can be found [here](medrxiv_scraping/medrxiv_last30_noabstracts.csv). Note that this list contains only metadata but no abstracts. 

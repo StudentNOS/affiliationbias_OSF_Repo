@@ -1,5 +1,5 @@
 import config_local
-import utils
+import S1_4_Chat_GPT_Review_utils_setup as utils
 import pandas as pd
 import numpy as np
 import ast
