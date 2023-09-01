@@ -3,7 +3,7 @@ Please note that some files may not be displayed on OSF, but all files can be do
 
 
 Below is short information on the main parts of the code. Detailed annotation may be found within the code as comment.
-The order of code documents follows the structure in the supplemental document. Therefore, you just need to follow the code chronologically to follow along the data collection and data analysis process along. 
+The order of code documents follows the structure in the supplemental document. Therefore, you just need to follow the code chronologically to follow along the data collection and data analysis process along. GPT and Github-Copilot were used during the coding process to support code creation and debugging. The authors are aware that they are responsible for the correctnes of the code and take full responsibility for it.
 
 # S1_Data_collection
 The 30 abstract used in this study were scraped from medrxiv using the paperscraper module. Please note that running this code will not create the same list of abstracts as used in our study, since the script (S1_Data_collection/S1_2_Collection_of_Abstracts.py) accesses the last 30 abstracts of the medrxiv dump. Depending on the date your dump was created this will result in a different list of papers. The list of abstracts we used in our study can be found here: (S1_Data_collection/S1_1_Collection_of_Abstracts_results.csv). Note that this list contains only metadata but no abstracts. 
