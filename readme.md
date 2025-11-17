@@ -1,5 +1,6 @@
 This repository contains the source code accompanying the JAMA article: 'Affiliation Bias in Peer Review of Abstracts by a Large Language Model', published on 2023-12-27.
-DOI: 10.1001/jama.2023.24641
+
+DOI: 10.1001/jama.2023.24641 \
 Contributors: Dario von Wedel; Rico André Schmitt; Moritz Thiele; Raphael Leuner; Denys Shay; Simone Redaelli; Maximilian S. Schaefer
 
 The code used for data acquisition and plot generation is in this GitHub repository. Additionally, we provide the SQLite database with the raw data and the Stata code for statistical analysis. You may find these files in the [OSF project](https://osf.io/zunmx/overview?view_only=7cd1a08872764b9386799490135a899f). Please note that some files may not be displayed in the OSF GUI, but all files can be downloaded for closer examination of the code. Detailed annotations can be found within the code as comments. The order of code documents follows the structure in the supplemental document. Therefore, you can go through the code chronologically to follow the data collection and data analysis process. GPT and GitHub Copilot were used during the coding process to support code creation and debugging. The authors are aware that they are responsible for the correctness of the code and take full responsibility for it.
